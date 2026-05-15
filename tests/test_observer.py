@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append(r"C:\Users\cgradmin\Documents\Ingenieria de sofware\Python observer\Python-observer\src")
+
 from observer_practice.canal import CanalNoticias
 from observer_practice.suscriptores import SuscriptorEmail, SuscriptorSMS
 

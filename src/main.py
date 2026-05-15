@@ -1,5 +1,5 @@
-from canal import CanalNoticias
-from suscriptores import SuscriptorEmail, SuscriptorSMS
+from observer_practice.canal import CanalNoticias
+from observer_practice.suscriptores import SuscriptorEmail, SuscriptorSMS
 
 canal = CanalNoticias("Claro")
 suscriptor1 = SuscriptorEmail("Pacho")
